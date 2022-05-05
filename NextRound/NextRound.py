@@ -1,7 +1,7 @@
 places = str(input()).split(' ')
 score = str(input()).split(' ')
 
-score_places = int(score[int(places[-1])])
+score_places = int(score[int(places[-1])-1])
 total = 0
 
 for i in score:
